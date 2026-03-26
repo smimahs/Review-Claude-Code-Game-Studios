@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"
+         xsi="http://www.w3.org/2001/XMLSchema-instance"
+         engine="UnityEngine.UIElements"
+         noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+         editor-extension-mode="False">
+    <Style src="MainMenu.uss" />
+    <ui:VisualElement name="main-menu" style="flex-grow: 1;">
+        <ui:Label name="main-menu-title" text="REEL WORDS" />
+        <ui:Button name="play-button" text="PLAY" />
+        <ui:Button name="quit-button" text="QUIT" />
+    </ui:VisualElement>
+</ui:UXML>

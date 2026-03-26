@@ -1,0 +1,23 @@
+{
+  "board_ui": {
+    "REEL_SPIN_DURATION": 0.30,
+    "REEL_SPIN_MIDPOINT_RATIO": 0.50,
+    "REEL_STAGGER_DELAY": 0.04,
+    "SELECTED_BORDER_WIDTH": 3,
+    "SELECTED_TINT_ALPHA": 0.25
+  },
+  "score_ui": {
+    "FLYOUT_RISE_DURATION": 0.90,
+    "FLYOUT_HOLD_DURATION": 0.10,
+    "FLYOUT_FADE_START_RATIO": 0.60,
+    "FLYOUT_RISE_DISTANCE": 80,
+    "FLYOUT_MAX_CONCURRENT": 4
+  },
+  "turn_timer_hud": {
+    "TURNS_WARNING_THRESHOLD": 3
+  },
+  "game_over": {
+    "SCORE_COUNTUP_DURATION": 1.0,
+    "COUNTUP_EASE_EXP": 2.0
+  }
+}

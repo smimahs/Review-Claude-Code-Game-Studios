@@ -1,0 +1,45 @@
+#main-menu {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(12, 12, 20);
+    align-items: center;
+    justify-content: center;
+}
+
+#main-menu-title {
+    font-size: 80px;
+    color: rgb(255, 215, 60);
+    -unity-font-style: bold;
+    margin-bottom: 72px;
+    letter-spacing: 10px;
+    -unity-text-align: middle-center;
+}
+
+#play-button, #quit-button {
+    width: 260px;
+    height: 70px;
+    margin: 10px;
+    font-size: 30px;
+    -unity-font-style: bold;
+    border-radius: 12px;
+    border-width: 0;
+    color: rgb(255, 255, 255);
+    cursor: link;
+}
+
+#play-button {
+    background-color: rgb(50, 170, 90);
+}
+
+#play-button:hover {
+    background-color: rgb(65, 200, 110);
+}
+
+#quit-button {
+    background-color: rgb(70, 70, 105);
+}
+
+#quit-button:hover {
+    background-color: rgb(95, 95, 140);
+}

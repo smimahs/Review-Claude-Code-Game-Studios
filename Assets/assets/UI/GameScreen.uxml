@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"
+         xsi="http://www.w3.org/2001/XMLSchema-instance"
+         engine="UnityEngine.UIElements"
+         noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+         editor-extension-mode="False">
+    <Style src="GameScreen.uss" />
+    <ui:VisualElement name="game-screen" style="flex-grow: 1;">
+        <ui:VisualElement name="score-area">
+            <ui:Label name="score-label" text="0" />
+            <ui:Label name="turns-label" text="Turns: 20" />
+        </ui:VisualElement>
+        <ui:VisualElement name="board-area">
+            <ui:VisualElement name="reel-0" class="reel-window">
+                <ui:Label name="reel-char-0" class="reel-char" text="" />
+            </ui:VisualElement>
+            <ui:VisualElement name="reel-1" class="reel-window">
+                <ui:Label name="reel-char-1" class="reel-char" text="" />
+            </ui:VisualElement>
+            <ui:VisualElement name="reel-2" class="reel-window">
+                <ui:Label name="reel-char-2" class="reel-char" text="" />
+            </ui:VisualElement>
+            <ui:VisualElement name="reel-3" class="reel-window">
+                <ui:Label name="reel-char-3" class="reel-char" text="" />
+            </ui:VisualElement>
+            <ui:VisualElement name="reel-4" class="reel-window">
+                <ui:Label name="reel-char-4" class="reel-char" text="" />
+            </ui:VisualElement>
+            <ui:VisualElement name="reel-5" class="reel-window">
+                <ui:Label name="reel-char-5" class="reel-char" text="" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label name="hint-label" text="Click adjacent reels to spell a word, then SUBMIT" />
+        <ui:Label name="word-preview" text="" />
+        <ui:VisualElement name="button-row">
+            <ui:Button name="submit-button" text="SUBMIT" />
+            <ui:Button name="clear-button" text="CLEAR" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

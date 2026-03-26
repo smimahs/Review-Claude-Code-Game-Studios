@@ -1,0 +1,148 @@
+#game-screen {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(14, 14, 22);
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+/* ---- Score / turns row ---- */
+#score-area {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+}
+
+#score-label {
+    font-size: 52px;
+    color: rgb(255, 215, 60);
+    -unity-font-style: bold;
+}
+
+#turns-label {
+    font-size: 26px;
+    color: rgb(180, 180, 210);
+}
+
+#turns-label.warning {
+    color: rgb(255, 90, 90);
+    -unity-font-style: bold;
+}
+
+/* ---- Reel board ---- */
+#board-area {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 8px 0;
+}
+
+.reel-window {
+    width: 110px;
+    height: 140px;
+    margin: 6px;
+    background-color: rgb(30, 30, 50);
+    border-width: 2px;
+    border-color: rgb(70, 70, 110);
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    cursor: link;
+    transition-property: border-color, background-color, border-width;
+    transition-duration: 0.08s, 0.08s, 0.08s;
+}
+
+.reel-window:hover {
+    border-color: rgb(120, 120, 180);
+    background-color: rgb(38, 38, 62);
+}
+
+.reel-window.selected {
+    border-color: rgb(80, 200, 255);
+    border-width: 3px;
+    background-color: rgb(30, 70, 110);
+}
+
+.reel-window.animating {
+    background-color: rgb(55, 55, 80);
+    border-color: rgb(160, 160, 255);
+}
+
+.reel-char {
+    font-size: 56px;
+    color: rgb(240, 240, 255);
+    -unity-font-style: bold;
+}
+
+/* ---- Hint ---- */
+#hint-label {
+    font-size: 18px;
+    color: rgb(130, 130, 160);
+    -unity-text-align: middle-center;
+    margin-bottom: 4px;
+}
+
+/* ---- Word preview ---- */
+#word-preview {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    letter-spacing: 6px;
+    min-height: 60px;
+    -unity-text-align: middle-center;
+}
+
+/* ---- Buttons ---- */
+#button-row {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+#submit-button, #clear-button {
+    width: 200px;
+    height: 64px;
+    margin: 8px;
+    font-size: 26px;
+    -unity-font-style: bold;
+    border-radius: 10px;
+    border-width: 0;
+    color: rgb(255, 255, 255);
+    cursor: link;
+}
+
+#submit-button {
+    background-color: rgb(50, 170, 90);
+}
+
+#submit-button:hover {
+    background-color: rgb(65, 200, 110);
+}
+
+#submit-button:disabled {
+    background-color: rgb(40, 65, 45);
+    color: rgb(100, 120, 100);
+    cursor: arrow;
+}
+
+#clear-button {
+    background-color: rgb(160, 50, 50);
+}
+
+#clear-button:hover {
+    background-color: rgb(200, 70, 70);
+}
+
+/* ---- Score flyout ---- */
+.flyout-label {
+    position: absolute;
+    font-size: 34px;
+    color: rgb(255, 215, 60);
+    -unity-font-style: bold;
+    opacity: 1;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"
+         xsi="http://www.w3.org/2001/XMLSchema-instance"
+         engine="UnityEngine.UIElements"
+         noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+         editor-extension-mode="False">
+    <Style src="GameOverScreen.uss" />
+    <ui:VisualElement name="game-over-screen" style="flex-grow: 1;">
+        <ui:Label name="game-over-title" text="GAME OVER" />
+        <ui:Label name="final-score-label" text="Score: 0" />
+        <ui:Label name="words-found-label" text="Words: 0" />
+        <ui:Button name="restart-button" text="PLAY AGAIN" />
+        <ui:Button name="menu-button" text="MAIN MENU" />
+    </ui:VisualElement>
+</ui:UXML>
