@@ -107,13 +107,6 @@ It currently struggles with:
 
 ---
 
-## 📦 Repository
-
-The full project (including generated content and issues) is available here:
-
-👉 *[Add your repo link here]*
-
----
 
 ## 🙌 Notes
 
