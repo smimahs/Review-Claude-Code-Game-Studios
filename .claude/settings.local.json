@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"D:\\\\Work\\\\Test\\\\my-game\\\\assets\\\\Resources\\\\Data\")",
+      "Bash(mkdir -p \"D:\\\\Work\\\\Test\\\\my-game\\\\assets\\\\data\")",
+      "Bash(mkdir -p \"D:\\\\Work\\\\Test\\\\my-game\\\\src\")",
+      "Bash(mkdir -p \"D:\\\\Work\\\\Test\\\\my-game\\\\tests\\\\unit\")",
+      "Bash(awk:*)",
+      "Bash(mv assets:*)",
+      "Bash(mkdir -p Assets)",
+      "Bash(mv src:*)",
+      "Bash(mv assets_temp Assets/assets)",
+      "Bash(mv tests:*)",
+      "Bash(find D:/Work/Test/my-game/Assets/src -name *.meta)"
+    ]
+  }
+}
