@@ -1,4 +1,4 @@
-```md
+
 # 🎰 ReelWords (AI-Generated Experiment)
 
 This project is an experiment using **Claude Code Game Studios** to generate a small game from scratch.
@@ -107,15 +107,8 @@ It currently struggles with:
 
 ---
 
-## 📦 Repository
-
-The full project (including generated content and issues) is available here:
-
-👉 *[Add your repo link here]*
-
----
 
 ## 🙌 Notes
 
 This repo is intentionally left as-is to reflect the real output of the AI system — not a polished or production-ready project.
-```
+
